@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-    <addon id="qqbenq.kodi.addon.repo" name="qqbenq's kodi addon repository" version="0.1.0" provider-name="qqbenq">
+    <addon id="qqbenq.kodi.addon.repo" name="qqbenq's Kodi Add-on Repository" version="0.1.0" provider-name="qqbenq">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
-        <extension point="xbmc.addon.repository" name="qqbenq's kodi addon repository">
+        <extension point="xbmc.addon.repository" name="qqbenq's Kodi Add-on Repository">
             <info compressed="false">https://raw.githubusercontent.com/qqbenq/kodi-addon-repository/master/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/qqbenq/kodi-addon-repository/master/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/qqbenq/kodi-addon-repository/master/</datadir>
             <hashes>false</hashes>
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary>Repository for hosting the latest version of the PM3.HD skin.</summary>
-            <description>Provides auto-update feature for the skin.</description>
+            <summary>Install add-ons maintained by qqbenq.</summary>
+            <description>The main reason this repository exists is to provide auto-update feature for the PM3.HD skin.</description>
             <platform>all</platform>
     </extension>
 </addon>
 
 <addon
   id="skin.pm3-hd"
-  version="2.6.0"
+  version="2.6.1"
   name="PM3.HD"
   provider-name="Jezz_X, Team XBMC, TigerbotHesh, qqbenq">
   <requires>
