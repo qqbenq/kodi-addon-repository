@@ -5,9 +5,9 @@
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
         <extension point="xbmc.addon.repository" name="qqbenq's kodi addon repository">
-            <info compressed="false">https://raw.githubusercontent.com/qqbenq/kodi-addon-repository/_repo/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/qqbenq/kodi-addon-repository/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/qqbenq/kodi-addon-repository/_repo/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/qqbenq/kodi-addon-repository/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/qqbenq/kodi-addon-repository/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/qqbenq/kodi-addon-repository/master/</datadir>
             <hashes>false</hashes>
         </extension>
         <extension point="xbmc.addon.metadata">
